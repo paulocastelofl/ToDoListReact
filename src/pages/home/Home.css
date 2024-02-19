@@ -1,0 +1,31 @@
+#container {
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+#customers {
+    width: 50%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr {
+    cursor: pointer;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
